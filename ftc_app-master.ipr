@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="CopyrightManager" default="" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>Assignment issuesJava</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJava</id>
+          </State>
+          <State>
+            <id>Class metricsJava</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Cloning issuesJava</id>
+          </State>
+          <State>
+            <id>Code maturity issuesJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Compiler issuesJava</id>
+          </State>
+          <State>
+            <id>Concurrency annotation issuesJava</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Data flow issuesJava</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>Dependency issuesJava</id>
+          </State>
+          <State>
+            <id>Encapsulation issuesJava</id>
+          </State>
+          <State>
+            <id>Error handlingJava</id>
+          </State>
+          <State>
+            <id>Finalization issuesJava</id>
+          </State>
+          <State>
+            <id>GPath inspectionsGroovy</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJava</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>ImportsJava</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>Initialization issuesJava</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>JUnit issues</id>
+          </State>
+          <State>
+            <id>JUnit issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java language level issuesJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaBeans issuesJava</id>
+          </State>
+          <State>
+            <id>JavaFX</id>
+          </State>
+          <State>
+            <id>Javadoc issuesJava</id>
+          </State>
+          <State>
+            <id>Language Injection</id>
+          </State>
+          <State>
+            <id>Logging issuesJava</id>
+          </State>
+          <State>
+            <id>Memory issuesJava</id>
+          </State>
+          <State>
+            <id>Method metricsJava</id>
+          </State>
+          <State>
+            <id>Modularization issuesJava</id>
+          </State>
+          <State>
+            <id>Naming ConventionsGroovy</id>
+          </State>
+          <State>
+            <id>Naming conventionsJava</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>OtherGroovy</id>
+          </State>
+          <State>
+            <id>Packaging issuesJava</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>Portability issuesJava</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>Properties FilesJava</id>
+          </State>
+          <State>
+            <id>Resource management issuesJava</id>
+          </State>
+          <State>
+            <id>Security issuesJava</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
+            <id>StyleGroovy</id>
+          </State>
+          <State>
+            <id>TestNG</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>Verbose or redundant code constructsJava</id>
+          </State>
+          <State>
+            <id>Visibility issuesJava</id>
+          </State>
+          <State>
+            <id>toString() issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>General</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/Analytics-release/Analytics-release.iml" filepath="$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/Analytics-release/Analytics-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/Analytics-release/Analytics-release.iml" filepath="$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/Analytics-release/Analytics-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/Blocks-release/Blocks-release.iml" filepath="$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/Blocks-release/Blocks-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/Blocks-release/Blocks-release.iml" filepath="$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/Blocks-release/Blocks-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/FtcCommon-release.iml" filepath="$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/FtcCommon-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/FtcCommon-release.iml" filepath="$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/FtcCommon-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/Hardware-release/Hardware-release.iml" filepath="$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/Hardware-release/Hardware-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/Hardware-release/Hardware-release.iml" filepath="$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/Hardware-release/Hardware-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/Inspection-release/Inspection-release.iml" filepath="$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/Inspection-release/Inspection-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/Inspection-release/Inspection-release.iml" filepath="$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/Inspection-release/Inspection-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/ModernRobotics-release/ModernRobotics-release.iml" filepath="$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/ModernRobotics-release/ModernRobotics-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/ModernRobotics-release/ModernRobotics-release.iml" filepath="$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/ModernRobotics-release/ModernRobotics-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/RobotCore-release/RobotCore-release.iml" filepath="$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/RobotCore-release/RobotCore-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/RobotCore-release/RobotCore-release.iml" filepath="$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/RobotCore-release/RobotCore-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/WirelessP2p-release/WirelessP2p-release.iml" filepath="$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/WirelessP2p-release/WirelessP2p-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/WirelessP2p-release/WirelessP2p-release.iml" filepath="$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/WirelessP2p-release/WirelessP2p-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FtcRobotController/build/generated/source/buildConfig/androidTest/androidTest.iml" filepath="$PROJECT_DIR$/FtcRobotController/build/generated/source/buildConfig/androidTest/androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FtcRobotController/build/generated/source/r/androidTest/androidTest1.iml" filepath="$PROJECT_DIR$/FtcRobotController/build/generated/source/r/androidTest/androidTest1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TeamCode/build/generated/source/buildConfig/androidTest/androidTest2.iml" filepath="$PROJECT_DIR$/TeamCode/build/generated/source/buildConfig/androidTest/androidTest2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FtcRobotController/build/generated/source/buildConfig/buildConfig.iml" filepath="$PROJECT_DIR$/FtcRobotController/build/generated/source/buildConfig/buildConfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TeamCode/build/generated/source/buildConfig/buildConfig1.iml" filepath="$PROJECT_DIR$/TeamCode/build/generated/source/buildConfig/buildConfig1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FtcRobotController/build/intermediates/bundles/debug/debug.iml" filepath="$PROJECT_DIR$/FtcRobotController/build/intermediates/bundles/debug/debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FtcRobotController/build/intermediates/manifest/androidTest/debug/debug.iml" filepath="$PROJECT_DIR$/FtcRobotController/build/intermediates/manifest/androidTest/debug/debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TeamCode/build/intermediates/manifest/androidTest/debug/debug.iml" filepath="$PROJECT_DIR$/TeamCode/build/intermediates/manifest/androidTest/debug/debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TeamCode/build/intermediates/manifests/full/debug/debug.iml" filepath="$PROJECT_DIR$/TeamCode/build/intermediates/manifests/full/debug/debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TeamCode/src/main/main.iml" filepath="$PROJECT_DIR$/TeamCode/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FtcRobotController/src/main/main1.iml" filepath="$PROJECT_DIR$/FtcRobotController/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FtcRobotController/build/generated/source/r/r.iml" filepath="$PROJECT_DIR$/FtcRobotController/build/generated/source/r/r.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TeamCode/build/generated/source/r/r1.iml" filepath="$PROJECT_DIR$/TeamCode/build/generated/source/r/r1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FtcRobotController/build/intermediates/bundles/release/release.iml" filepath="$PROJECT_DIR$/FtcRobotController/build/intermediates/bundles/release/release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/ftc_app-master/FtcRobotController/unspecified/unspecified.iml" filepath="$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/ftc_app-master/FtcRobotController/unspecified/unspecified.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="false" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="" />
+  </component>
+  <component name="libraryTable">
+    <library name="classes">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/Blocks-release/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="classes1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/bundles/debug/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="classes10">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/Analytics-release/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="classes11">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="classes12">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="classes13">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/Hardware-release/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="classes14">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/WirelessP2p-release/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="classes15">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/WirelessP2p-release/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="classes16">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/Analytics-release/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="classes17">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/ModernRobotics-release/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="classes18">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/RobotCore-release/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="classes2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/Inspection-release/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="classes3">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/Inspection-release/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="classes4">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/ModernRobotics-release/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="classes5">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/Blocks-release/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="classes6">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/ftc_app-master/FtcRobotController/unspecified/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="classes7">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="classes8">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/Hardware-release/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="classes9">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/bundles/release/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="debug">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-WirelessP2p-release_66109c342f550ddd21dbcfe6bc0afdc92d1750c9.jar!/" />
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Hardware-release_02b270d760a39f646b210f1fce4305b34be2a4cb.jar!/" />
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-FtcCommon-release_b57a21eb762d9d26ef035ced3edaaec1daae6569.jar!/" />
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Analytics-release_e428a3052a4ff3a8e17562da091144f964240d3a.jar!/" />
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/ftc_app-master-FtcRobotController-unspecified_f169cf6b5344371c0c2c7965942146f600064f07.jar!/" />
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/d2xx_42c114048fb395e093a5556d77ac6fc4b2429a3a.jar!/" />
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/gson-2.7_aec7375437f1a0ad808ad72032a1b57231472769.jar!/" />
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Inspection-release_c207b8fe97a538a072d0aee55e7a3660a5768b52.jar!/" />
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/debug_6f4295381d329fcb372af95b75ac996383cc64f6.jar!/" />
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/Vuforia_d26fe3fdf6d869fbc92b06f8f396e67f612e2998.jar!/" />
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Blocks-release_867e8ded681d0c2b105879f7c62a5ef8eeedd279.jar!/" />
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_e131f3b4d3c846804c68a36bfd1f61a742954c9f.jar!/" />
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-RobotCore-release_ab4941d6610b2461aee8663ab676749303d00c7c.jar!/" />
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-ModernRobotics-release_1e25e1ecac952bd3f3919308e1c282462440d58b.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="debug1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/jniLibs/debug/Vuforia.jar!/" />
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/jniLibs/debug/Hardware-release-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/jniLibs/debug/FtcCommon-release-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/jniLibs/debug/RobotCore-release-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/jniLibs/debug/Blocks-release-sources.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="gradle-wrapper">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="libs">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/RobotCore-release/jars/libs/gson-2.7.jar!/" />
+        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/RobotCore-release/jars/libs/d2xx.jar!/" />
+        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/RobotCore-release/jars/libs/support-annotations-23.4.0.jar!/" />
+        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/RobotCore-release/jars/libs/Vuforia.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="libs1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/libs/Hardware-release-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/libs/Blocks-release-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/libs/Vuforia.jar!/" />
+        <root url="jar://$PROJECT_DIR$/libs/RobotCore-release-sources.jar!/" />
+        <root url="jar://$PROJECT_DIR$/libs/FtcCommon-release-sources.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="libs2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/Vuforia.jar!/" />
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/gson-2.7.jar!/" />
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/d2xx.jar!/" />
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/support-annotations-23.4.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="main">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
