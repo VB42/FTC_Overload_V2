@@ -20,11 +20,54 @@
     </annotationProcessing>
   </component>
   <component name="CopyrightManager" default="" />
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/FtcRobotController" />
+            <option value="$PROJECT_DIR$/TeamCode" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="Bundled (Maven 3)" />
       </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="NullableNotNullManager">
+    <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
+    <option name="myDefaultNotNull" value="android.support.annotation.NonNull" />
+    <option name="myNullables">
+      <value>
+        <list size="4">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
+          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
+        </list>
+      </value>
+    </option>
+    <option name="myNotNulls">
+      <value>
+        <list size="4">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
+          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
+        </list>
+      </value>
     </option>
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -242,8 +285,10 @@
       <module fileurl="file://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/Analytics-release/Analytics-release.iml" filepath="$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/Analytics-release/Analytics-release.iml" />
       <module fileurl="file://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/Blocks-release/Blocks-release.iml" filepath="$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/Blocks-release/Blocks-release.iml" />
       <module fileurl="file://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/Blocks-release/Blocks-release.iml" filepath="$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/Blocks-release/Blocks-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FTC_Overload_V2.iml" filepath="$PROJECT_DIR$/FTC_Overload_V2.iml" />
       <module fileurl="file://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/FtcCommon-release.iml" filepath="$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/FtcCommon-release.iml" />
       <module fileurl="file://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/FtcCommon-release.iml" filepath="$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/FtcCommon-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FtcRobotController/FtcRobotController.iml" filepath="$PROJECT_DIR$/FtcRobotController/FtcRobotController.iml" />
       <module fileurl="file://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/Hardware-release/Hardware-release.iml" filepath="$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/Hardware-release/Hardware-release.iml" />
       <module fileurl="file://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/Hardware-release/Hardware-release.iml" filepath="$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/Hardware-release/Hardware-release.iml" />
       <module fileurl="file://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/Inspection-release/Inspection-release.iml" filepath="$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/Inspection-release/Inspection-release.iml" />
@@ -252,6 +297,7 @@
       <module fileurl="file://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/ModernRobotics-release/ModernRobotics-release.iml" filepath="$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/ModernRobotics-release/ModernRobotics-release.iml" />
       <module fileurl="file://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/RobotCore-release/RobotCore-release.iml" filepath="$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/RobotCore-release/RobotCore-release.iml" />
       <module fileurl="file://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/RobotCore-release/RobotCore-release.iml" filepath="$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/RobotCore-release/RobotCore-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TeamCode/TeamCode.iml" filepath="$PROJECT_DIR$/TeamCode/TeamCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/WirelessP2p-release/WirelessP2p-release.iml" filepath="$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/WirelessP2p-release/WirelessP2p-release.iml" />
       <module fileurl="file://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/WirelessP2p-release/WirelessP2p-release.iml" filepath="$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/WirelessP2p-release/WirelessP2p-release.iml" />
       <module fileurl="file://$PROJECT_DIR$/FtcRobotController/build/generated/source/buildConfig/androidTest/androidTest.iml" filepath="$PROJECT_DIR$/FtcRobotController/build/generated/source/buildConfig/androidTest/androidTest.iml" />
@@ -271,221 +317,98 @@
       <module fileurl="file://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/ftc_app-master/FtcRobotController/unspecified/unspecified.iml" filepath="$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/ftc_app-master/FtcRobotController/unspecified/unspecified.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="false" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="false" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="RunConfigurationProducerService">
+    <option name="ignoredProducers">
+      <set>
+        <option value="org.jetbrains.plugins.gradle.execution.test.runner.AllInPackageGradleConfigurationProducer" />
+        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestClassGradleConfigurationProducer" />
+        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestMethodGradleConfigurationProducer" />
+      </set>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs="" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
   <component name="libraryTable">
-    <library name="classes">
+    <library name="Analytics-release-">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/Blocks-release/jars/classes.jar!/" />
+        <root url="jar://$USER_HOME$/.android/build-cache/bcaa277d2b7eedf0619314e869b788c32bc1547a/output/jars/classes.jar!/" />
+        <root url="file://$USER_HOME$/.android/build-cache/bcaa277d2b7eedf0619314e869b788c32bc1547a/output/res" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="classes1">
+    <library name="Blocks-release-">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/bundles/debug/classes.jar!/" />
+        <root url="jar://$USER_HOME$/.android/build-cache/240251b7bd921c252948f1c8e4a42a132e8f2dad/output/jars/classes.jar!/" />
+        <root url="file://$USER_HOME$/.android/build-cache/240251b7bd921c252948f1c8e4a42a132e8f2dad/output/res" />
       </CLASSES>
       <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="classes10">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/Analytics-release/jars/classes.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="classes11">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/classes.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="classes12">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/jars/classes.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="classes13">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/Hardware-release/jars/classes.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="classes14">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/WirelessP2p-release/jars/classes.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="classes15">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/WirelessP2p-release/jars/classes.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="classes16">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/Analytics-release/jars/classes.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="classes17">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/ModernRobotics-release/jars/classes.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="classes18">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/RobotCore-release/jars/classes.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="classes2">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/Inspection-release/jars/classes.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="classes3">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/Inspection-release/jars/classes.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="classes4">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/ModernRobotics-release/jars/classes.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="classes5">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/Blocks-release/jars/classes.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="classes6">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/ftc_app-master/FtcRobotController/unspecified/jars/classes.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="classes7">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/jars/classes.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="classes8">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/Hardware-release/jars/classes.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="classes9">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/bundles/release/classes.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="debug">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-WirelessP2p-release_66109c342f550ddd21dbcfe6bc0afdc92d1750c9.jar!/" />
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Hardware-release_02b270d760a39f646b210f1fce4305b34be2a4cb.jar!/" />
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-FtcCommon-release_b57a21eb762d9d26ef035ced3edaaec1daae6569.jar!/" />
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Analytics-release_e428a3052a4ff3a8e17562da091144f964240d3a.jar!/" />
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/ftc_app-master-FtcRobotController-unspecified_f169cf6b5344371c0c2c7965942146f600064f07.jar!/" />
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/d2xx_42c114048fb395e093a5556d77ac6fc4b2429a3a.jar!/" />
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/gson-2.7_aec7375437f1a0ad808ad72032a1b57231472769.jar!/" />
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Inspection-release_c207b8fe97a538a072d0aee55e7a3660a5768b52.jar!/" />
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/debug_6f4295381d329fcb372af95b75ac996383cc64f6.jar!/" />
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/Vuforia_d26fe3fdf6d869fbc92b06f8f396e67f612e2998.jar!/" />
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Blocks-release_867e8ded681d0c2b105879f7c62a5ef8eeedd279.jar!/" />
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_e131f3b4d3c846804c68a36bfd1f61a742954c9f.jar!/" />
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-RobotCore-release_ab4941d6610b2461aee8663ab676749303d00c7c.jar!/" />
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-ModernRobotics-release_1e25e1ecac952bd3f3919308e1c282462440d58b.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="debug1">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/jniLibs/debug/Vuforia.jar!/" />
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/jniLibs/debug/Hardware-release-sources.jar!/" />
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/jniLibs/debug/FtcCommon-release-sources.jar!/" />
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/jniLibs/debug/RobotCore-release-sources.jar!/" />
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/jniLibs/debug/Blocks-release-sources.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="gradle-wrapper">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="libs">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/RobotCore-release/jars/libs/gson-2.7.jar!/" />
-        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/RobotCore-release/jars/libs/d2xx.jar!/" />
-        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/RobotCore-release/jars/libs/support-annotations-23.4.0.jar!/" />
-        <root url="jar://$PROJECT_DIR$/FtcRobotController/build/intermediates/exploded-aar/RobotCore-release/jars/libs/Vuforia.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="libs1">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/libs/Hardware-release-sources.jar!/" />
+      <SOURCES>
         <root url="jar://$PROJECT_DIR$/libs/Blocks-release-sources.jar!/" />
-        <root url="jar://$PROJECT_DIR$/libs/Vuforia.jar!/" />
-        <root url="jar://$PROJECT_DIR$/libs/RobotCore-release-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="FtcCommon-release-">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.android/build-cache/0a407d4b12506320b913abe777b52b39ede75e95/output/res" />
+        <root url="jar://$USER_HOME$/.android/build-cache/0a407d4b12506320b913abe777b52b39ede75e95/output/jars/classes.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
         <root url="jar://$PROJECT_DIR$/libs/FtcCommon-release-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Hardware-release-">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.android/build-cache/c05bd6eca2814912c6d4500f3b59540d3e6dae52/output/jars/classes.jar!/" />
+        <root url="file://$USER_HOME$/.android/build-cache/c05bd6eca2814912c6d4500f3b59540d3e6dae52/output/res" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/libs/Hardware-release-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Inspection-release-">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.android/build-cache/491b637dff42af9a6eb115a87f9b3a3c617b7a65/output/res" />
+        <root url="jar://$USER_HOME$/.android/build-cache/491b637dff42af9a6eb115a87f9b3a3c617b7a65/output/jars/classes.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="libs2">
+    <library name="ModernRobotics-release-">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/Vuforia.jar!/" />
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/gson-2.7.jar!/" />
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/d2xx.jar!/" />
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/support-annotations-23.4.0.jar!/" />
+        <root url="file://$USER_HOME$/.android/build-cache/225dad179c1a150a6e6bcb7a7db599e4f8ad6d8c/output/res" />
+        <root url="jar://$USER_HOME$/.android/build-cache/225dad179c1a150a6e6bcb7a7db599e4f8ad6d8c/output/jars/classes.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="main">
+    <library name="RobotCore-release-">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/TeamCode/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar!/" />
+        <root url="jar://$USER_HOME$/.android/build-cache/26044bb83271c33c0a1ca11f405b93e83672925f/output/jars/libs/d2xx.jar!/" />
+        <root url="jar://$USER_HOME$/.android/build-cache/26044bb83271c33c0a1ca11f405b93e83672925f/output/jars/libs/support-annotations-23.4.0.jar!/" />
+        <root url="jar://$USER_HOME$/.android/build-cache/26044bb83271c33c0a1ca11f405b93e83672925f/output/jars/classes.jar!/" />
+        <root url="jar://$USER_HOME$/.android/build-cache/26044bb83271c33c0a1ca11f405b93e83672925f/output/jars/libs/Vuforia.jar!/" />
+        <root url="jar://$USER_HOME$/.android/build-cache/26044bb83271c33c0a1ca11f405b93e83672925f/output/jars/libs/gson-2.7.jar!/" />
+        <root url="file://$USER_HOME$/.android/build-cache/26044bb83271c33c0a1ca11f405b93e83672925f/output/res" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/libs/RobotCore-release-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="WirelessP2p-release-">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.android/build-cache/d6fe0b2942da73656ddd5d1b12e0595a500dce27/output/res" />
+        <root url="jar://$USER_HOME$/.android/build-cache/d6fe0b2942da73656ddd5d1b12e0595a500dce27/output/jars/classes.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
