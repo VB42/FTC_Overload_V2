@@ -12,7 +12,7 @@ import com.qualcomm.robotcore.hardware.ServoController;
  */
 
 
-//yash is
+//yash is a cool kid
 
 @TeleOp(name="Testv2", group="Test")
 public class Testv2 extends OpMode{
