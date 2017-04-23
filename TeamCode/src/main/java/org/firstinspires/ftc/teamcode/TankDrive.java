@@ -6,11 +6,17 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorController;
 import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.hardware.ServoController;
+
 /**
- * Created by Aneesh Boreda on 4/23/2017.
+ * Created by Vinay on 2/25/17.
  */
-@TeleOp(name="Testv3", group="Test")
-public class Testv3 extends OpMode{
+
+
+//yash is a cool kid
+
+@TeleOp(name="TankDrive", group="Test")
+public class TankDrive extends OpMode{
+
     private DcMotorController control;
 
     private DcMotor left;

@@ -1,22 +1,16 @@
 package org.firstinspires.ftc.teamcode;
-
+import java.lang.Math;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorController;
 import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.hardware.ServoController;
-
 /**
- * Created by Vinay on 2/25/17.
+ * Created by Aneesh Boreda on 4/23/2017.
  */
-
-
-//yash is a cool kid
-
-@TeleOp(name="Testv2", group="Test")
-public class Testv2 extends OpMode{
-
+@TeleOp(name="NormalDrive", group="Test")
+public class NormalDrive extends OpMode{
     private DcMotorController control;
 
     private DcMotor left;
@@ -41,12 +35,14 @@ public class Testv2 extends OpMode{
 
         telemetry.addData("Say", "Hello");
 
-        if(-gamepad1.left_stick_y > threshold){
+        if(Math.abs(-gamepad1.left_stick_y) > threshold){
             left.setPower(-1*Math.pow(-gamepad1.left_stick_y, 3));
+            right.setPower(Math.pow(-gamepad1.right_stick_y, 3));
         }
 
-        if(-gamepad1.right_stick_y > threshold){
-            right.setPower(Math.pow(-gamepad1.right_stick_y, 3));
+        else if(Math.abs(-gamepad1.right_stick_x) > threshold){
+            right.setPower(Math.pow(-gamepad1.right_stick_x, 3));
+            left.setPower(Math.pow(-gamepad1.right_stick_x, 3));
         }
 
 
