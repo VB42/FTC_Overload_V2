@@ -22,7 +22,7 @@ public class Testv2 extends OpMode{
     private DcMotor left;
     private DcMotor right;
 
-    public static double deadArvind = 0.2;
+    public static double threshold = 0.2;
 
     @Override
     public void init() {
@@ -41,11 +41,11 @@ public class Testv2 extends OpMode{
 
         telemetry.addData("Say", "Hello");
 
-        if(-gamepad1.left_stick_y > deadArvind){
+        if(-gamepad1.left_stick_y > threshold){
             left.setPower(-1*Math.pow(-gamepad1.left_stick_y, 3));
         }
 
-        if(-gamepad1.right_stick_y > deadArvind){
+        if(-gamepad1.right_stick_y > threshold){
             right.setPower(Math.pow(-gamepad1.right_stick_y, 3));
         }
 
