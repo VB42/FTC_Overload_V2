@@ -1,16 +1,20 @@
-package org.firstinspires.ftc.teamcode;
-import java.lang.Math;
+package org.firstinspires.ftc.robotcontroller;
+
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorController;
-import com.qualcomm.robotcore.hardware.Servo;
-import com.qualcomm.robotcore.hardware.ServoController;
+
 /**
- * Created by Aneesh Boreda on 4/23/2017.
+ * Created by Vinay on 2/25/17.
  */
-@TeleOp(name="NormalDrive", group="Test")
-public class NormalDrive extends OpMode{
+
+
+//yash is a cool kid
+
+@TeleOp(name="TankDrive", group="Test")
+public class TankDrive extends OpMode{
+
     private DcMotorController control;
 
     private DcMotor left;
@@ -36,20 +40,16 @@ public class NormalDrive extends OpMode{
         telemetry.addData("Say", "Hello");
 
         if(Math.abs(-gamepad1.left_stick_y) > threshold){
-            left.setPower(-1*Math.pow(-gamepad1.left_stick_y, 3));
-            right.setPower(Math.pow(-gamepad1.right_stick_y, 3));
+        right.setPower(Math.pow(-gamepad1.right_stick_y, 3));
+        }
+        if(Math.abs(-gamepad1.right_stick_y) > threshold){
+        right.setPower(-1*Math.pow(-gamepad1.right_stick_y, 3));
         }
 
-        else if(Math.abs(gamepad1.right_stick_x) > threshold){
-            right.setPower(Math.pow(-gamepad1.right_stick_x, 3));
-            left.setPower(Math.pow(-gamepad1.right_stick_x, 3));
-        }
-
-
-
-
-
-
+       if(Math.abs(-gamepad1.left_stick_y) < threshold && Math.abs(-gamepad1.right_stick_y) < threshold){
+        right.setPower(0);
+        left.setPower(0);
+       }
 
     }
 }
