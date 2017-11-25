@@ -10,9 +10,9 @@ import com.qualcomm.robotcore.hardware.ColorSensor;
 
 /**
  * This class allows the driver controlled operation of the robot.
- * 
- *
- *
+ * It controls 4 mechanum wheels and allows for strafing,
+ * in addition to the normal controls of turning and forward and backward movement
+ *V 1.0
  *
  *
  */
