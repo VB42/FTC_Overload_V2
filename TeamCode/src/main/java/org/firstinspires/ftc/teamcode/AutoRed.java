@@ -64,29 +64,23 @@ import com.qualcomm.robotcore.hardware.ColorSensor;
 public class AutoRed extends LinearOpMode {
 
     /* Declare OpMode members. */
-    private ElapsedTime     runtime = new ElapsedTime();
-
-
-    static final double     FORWARD_SPEED = 0.6;
-    static final double     TURN_SPEED    = 0.5;
-    static final double     SPEED = 0.5;
-
-
     private DcMotorController control;
     private DcMotorController control2;
     private ServoController servoController;
-    //private DcMotorController control2;
+    //private DcMotorController control3;
     private DcMotor left_front;
     private DcMotor right_front;
     private DcMotor left_back;
     private DcMotor right_back;
-    private Servo LiftL;
-    private Servo LiftR;
+    //private DcMotor lift;
     private Servo ClawL;
     private Servo ClawR;
     private ColorSensor color_sensor;
+    private ElapsedTime     runtime = new ElapsedTime();
     public static double threshold = 0.2;
-
+    static final double     FORWARD_SPEED = 0.6;
+    static final double     TURN_SPEED    = 0.5;
+    static final double     SPEED = 0.5;
 
     public void forward(){
         left_front.setPower(-SPEED);
@@ -186,14 +180,13 @@ public class AutoRed extends LinearOpMode {
         left_back = hardwareMap.dcMotor.get("left_back");
         right_back = hardwareMap.dcMotor.get("right_back");
 
-        //LiftL=hardwareMap.servo.get("LiftL");
+        //control3 = hardwareMap.dcMotorController.get("drive_controller3");
         // ClawL=hardwareMap.servo.get("ClawL");
         //ClawR=hardwareMap.servo.get("ClawR");
 
-        //LiftR=hardwareMap.servo.get("LiftR");
+        //lift=hardwareMap.dcMotor.get("lift");
         color_sensor = hardwareMap.colorSensor.get("color");
         color_sensor.enableLed(true);
-
         // Send telemetry message to signify robot waiting;
         telemetry.addData("Status", "Ready to run");    //
         telemetry.update();
@@ -204,37 +197,37 @@ public class AutoRed extends LinearOpMode {
         // Step through each leg of the path, ensuring that the Auto mode has not been stopped along the way
 
         // Step 1:  Drive forward for 3 seconds
-        robot.leftDrive.setPower(FORWARD_SPEED);
-        robot.rightDrive.setPower(FORWARD_SPEED);
-        runtime.reset();
-        while (opModeIsActive() && (runtime.seconds() < 3.0)) {
-            telemetry.addData("Path", "Leg 1: %2.5f S Elapsed", runtime.seconds());
-            telemetry.update();
-        }
-
-        // Step 2:  Spin right for 1.3 seconds
-        robot.leftDrive.setPower(TURN_SPEED);
-        robot.rightDrive.setPower(-TURN_SPEED);
-        runtime.reset();
-        while (opModeIsActive() && (runtime.seconds() < 1.3)) {
-            telemetry.addData("Path", "Leg 2: %2.5f S Elapsed", runtime.seconds());
-            telemetry.update();
-        }
-
-        // Step 3:  Drive Backwards for 1 Second
-        robot.leftDrive.setPower(-FORWARD_SPEED);
-        robot.rightDrive.setPower(-FORWARD_SPEED);
-        runtime.reset();
-        while (opModeIsActive() && (runtime.seconds() < 1.0)) {
-            telemetry.addData("Path", "Leg 3: %2.5f S Elapsed", runtime.seconds());
-            telemetry.update();
-        }
-
-        // Step 4:  Stop and close the claw.
-        robot.leftDrive.setPower(0);
-        robot.rightDrive.setPower(0);
-        robot.leftClaw.setPosition(1.0);
-        robot.rightClaw.setPosition(0.0);
+//        robot.leftDrive.setPower(FORWARD_SPEED);
+//        robot.rightDrive.setPower(FORWARD_SPEED);
+//        runtime.reset();
+//        while (opModeIsActive() && (runtime.seconds() < 3.0)) {
+//            telemetry.addData("Path", "Leg 1: %2.5f S Elapsed", runtime.seconds());
+//            telemetry.update();
+//        }
+//
+//        // Step 2:  Spin right for 1.3 seconds
+//        robot.leftDrive.setPower(TURN_SPEED);
+//        robot.rightDrive.setPower(-TURN_SPEED);
+//        runtime.reset();
+//        while (opModeIsActive() && (runtime.seconds() < 1.3)) {
+//            telemetry.addData("Path", "Leg 2: %2.5f S Elapsed", runtime.seconds());
+//            telemetry.update();
+//        }
+//
+//        // Step 3:  Drive Backwards for 1 Second
+//        robot.leftDrive.setPower(-FORWARD_SPEED);
+//        robot.rightDrive.setPower(-FORWARD_SPEED);
+//        runtime.reset();
+//        while (opModeIsActive() && (runtime.seconds() < 1.0)) {
+//            telemetry.addData("Path", "Leg 3: %2.5f S Elapsed", runtime.seconds());
+//            telemetry.update();
+//        }
+//
+//        // Step 4:  Stop and close the claw.
+//        robot.leftDrive.setPower(0);
+//        robot.rightDrive.setPower(0);
+//        robot.leftClaw.setPosition(1.0);
+//        robot.rightClaw.setPosition(0.0);
 
         telemetry.addData("Path", "Complete");
         telemetry.update();
