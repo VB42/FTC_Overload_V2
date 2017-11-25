@@ -1,3 +1,4 @@
+
 package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
@@ -24,18 +25,16 @@ public class TankDrive extends OpMode
     private DcMotorController control;
     private DcMotorController control2;
     private ServoController servoController;
-    //private DcMotorController control2;
+    //private DcMotorController control3;
     private DcMotor left_front;
     private DcMotor right_front;
     private DcMotor left_back;
     private DcMotor right_back;
-    private Servo LiftL;
-    private Servo LiftR;
+    //private DcMotor lift;
     private Servo ClawL;
     private Servo ClawR;
     private ColorSensor color_sensor;
     public static double threshold = 0.2;
-
     @Override
     public void init()
     {
@@ -50,11 +49,11 @@ public class TankDrive extends OpMode
         left_back = hardwareMap.dcMotor.get("left_back");
         right_back = hardwareMap.dcMotor.get("right_back");
 
-        //LiftL=hardwareMap.servo.get("LiftL");
+        //control3 = hardwareMap.dcMotorController.get("drive_controller3");
        // ClawL=hardwareMap.servo.get("ClawL");
         //ClawR=hardwareMap.servo.get("ClawR");
 
-        //LiftR=hardwareMap.servo.get("LiftR");
+        //lift=hardwareMap.dcMotor.get("lift");
         color_sensor = hardwareMap.colorSensor.get("color");
         color_sensor.enableLed(true);
 
