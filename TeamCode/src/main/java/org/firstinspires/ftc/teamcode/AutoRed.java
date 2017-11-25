@@ -102,15 +102,70 @@ public class AutoRed extends LinearOpMode {
         right_back.setPower(-SPEED);
     }
 
+    public void left(){
+        left_front.setPower(SPEED);
+        left_back.setPower(SPEED);
+        right_front.setPower(SPEED);
+        right_back.setPower(SPEED);
+    }
 
+    public void resetMotors(){
+        left_front.setPower(0);
+        left_back.setPower(0);
+        right_front.setPower(0);
+        right_back.setPower(0);
+    }
+
+    public void right(){
+        left_front.setPower(-SPEED);
+        left_back.setPower(-SPEED);
+        right_front.setPower(-SPEED);
+        right_back.setPower(-SPEED);
+    }
 
     public void moveForward(float time){
         forward();
+        runtime.reset();
         while(opModeIsActive() && runtime.seconds() < time){
             telemetry.addData("Running", runtime.seconds());
             telemetry.update();
         }
+        resetMotors();
     }
+
+    public void moveBackward(float time){
+        forward();
+        runtime.reset();
+        while(opModeIsActive() && runtime.seconds() < time){
+            telemetry.addData("Running", runtime.seconds());
+            telemetry.update();
+        }
+        resetMotors();
+    }
+
+    public void moveLeft(float time){
+        left();
+        runtime.reset();
+        while(opModeIsActive() && runtime.seconds() < time){
+            telemetry.addData("Running", runtime.seconds());
+            telemetry.update();
+        }
+        resetMotors();
+
+    }
+
+
+    public void moveRight(float time){
+        right();
+        runtime.reset();
+        while(opModeIsActive() && runtime.seconds() < time){
+            telemetry.addData("Running", runtime.seconds());
+            telemetry.update();
+        }
+        resetMotors();
+
+    }
+
 
 
     @Override
