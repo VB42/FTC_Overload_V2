@@ -60,8 +60,8 @@ import com.qualcomm.robotcore.hardware.ColorSensor;
  * Remove or comment out the @Disabled line to add this opmode to the Driver Station OpMode list
  */
 
-@Autonomous(name="Pushbot: Auto Drive By Time", group="Pushbot")
-@Disabled
+@Autonomous(name="AutoRed", group="AutonomousPrograms")
+
 public class AutoRed extends LinearOpMode {
 
     /* Declare OpMode members. */
@@ -193,7 +193,7 @@ public class AutoRed extends LinearOpMode {
 
 
 
-        moveForward(3)
+        moveForward(3);
 
 
 
