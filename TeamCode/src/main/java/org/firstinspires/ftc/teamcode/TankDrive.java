@@ -39,7 +39,7 @@ public class TankDrive extends OpMode
     public void init()
     {
         control = hardwareMap.dcMotorController.get("drive_controller");
-       // servoController = hardwareMap.servoController.get("servo_controller");
+        servoController = hardwareMap.servoController.get("servo_controller");
         left_front = hardwareMap.dcMotor.get("left_front");
         right_front = hardwareMap.dcMotor.get("right_front");
 
@@ -50,10 +50,11 @@ public class TankDrive extends OpMode
         right_back = hardwareMap.dcMotor.get("right_back");
 
         //control3 = hardwareMap.dcMotorController.get("drive_controller3");
-       // ClawL=hardwareMap.servo.get("ClawL");
-        //ClawR=hardwareMap.servo.get("ClawR");
+        ClawL=hardwareMap.servo.get("ClawL");
+        ClawR=hardwareMap.servo.get("ClawR");
 
-        //lift=hardwareMap.dcMotor.get("lift");
+        //liftl=hardwareMap.dcMotor.get("liftl");
+        //liftr=hardwareMap.dcMotor.get("liftr");
         color_sensor = hardwareMap.colorSensor.get("color");
         color_sensor.enableLed(true);
 
@@ -130,6 +131,25 @@ public class TankDrive extends OpMode
         if(Math.abs(gamepad1.left_stick_x) < threshold && Math.abs(gamepad1.right_stick_x) < threshold
                 && Math.abs(gamepad1.left_stick_y) < threshold && Math.abs(gamepad1.right_stick_y) < threshold){
             resetMotors();
+        }
+        /*
+         * Code for opening and closing the claw
+         *
+         */
+        if(gamepad1.x)
+        {
+            ClawL.setPosition(1);
+            ClawR.setPosition(0);
+        }
+        else if(gamepad1.y)
+        {
+            ClawL.setPosition(0);
+            ClawR.setPosition(1);
+        }
+        else
+        {
+            ClawL.setPosition(0.5);
+            ClawR.setPosition(0.5);
         }
 
 
