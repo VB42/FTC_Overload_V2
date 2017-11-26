@@ -38,6 +38,7 @@ import com.qualcomm.robotcore.hardware.DcMotorController;
 import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.hardware.ServoController;
 import com.qualcomm.robotcore.hardware.ColorSensor;
+
 /**
  * This file illustrates the concept of driving a path based on time.
  * It uses the common Pushbot hardware class to define the drive on the robot.
@@ -64,6 +65,7 @@ import com.qualcomm.robotcore.hardware.ColorSensor;
 public class AutoRed extends LinearOpMode {
 
     /* Declare OpMode members. */
+
     private DcMotorController control;
     private DcMotorController control2;
     private ServoController servoController;
@@ -103,13 +105,6 @@ public class AutoRed extends LinearOpMode {
         right_back.setPower(SPEED);
     }
 
-    public void resetMotors(){
-        left_front.setPower(0);
-        left_back.setPower(0);
-        right_front.setPower(0);
-        right_back.setPower(0);
-    }
-
     public void right(){
         left_front.setPower(-SPEED);
         left_back.setPower(-SPEED);
@@ -117,50 +112,52 @@ public class AutoRed extends LinearOpMode {
         right_back.setPower(-SPEED);
     }
 
-    public void moveForward(float time){
-        forward();
+
+    public void wait(float time){
         runtime.reset();
         while(opModeIsActive() && runtime.seconds() < time){
             telemetry.addData("Running", runtime.seconds());
             telemetry.update();
         }
+    }
+
+    public void resetMotors(){
+        left_front.setPower(0);
+        left_back.setPower(0);
+        right_front.setPower(0);
+        right_back.setPower(0);
+    }
+
+    public void pause(float time){
         resetMotors();
+        wait(time);
+    }
+    public void moveForward(float time){
+        forward();
+        wait(time);
+        pause(1/2);
     }
 
     public void moveBackward(float time){
         forward();
-        runtime.reset();
-        while(opModeIsActive() && runtime.seconds() < time){
-            telemetry.addData("Running", runtime.seconds());
-            telemetry.update();
-        }
-        resetMotors();
+        wait(time);
+        pause(1/2);
     }
 
     public void moveLeft(float time){
         left();
-        runtime.reset();
-        while(opModeIsActive() && runtime.seconds() < time){
-            telemetry.addData("Running", runtime.seconds());
-            telemetry.update();
-        }
-        resetMotors();
+        wait(time);
+        pause(1/2);
 
     }
 
 
     public void moveRight(float time){
         right();
-        runtime.reset();
-        while(opModeIsActive() && runtime.seconds() < time){
-            telemetry.addData("Running", runtime.seconds());
-            telemetry.update();
-        }
-        resetMotors();
+        wait(time);
+        pause(1/2);
 
     }
-
-
 
     @Override
     public void runOpMode() {
@@ -193,6 +190,12 @@ public class AutoRed extends LinearOpMode {
 
         // Wait for the game to start (driver presses PLAY)
         waitForStart();
+
+
+
+        moveForward(3)
+
+
 
         // Step through each leg of the path, ensuring that the Auto mode has not been stopped along the way
 
