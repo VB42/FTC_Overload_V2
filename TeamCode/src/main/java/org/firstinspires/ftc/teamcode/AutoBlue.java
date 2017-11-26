@@ -80,7 +80,7 @@ public class AutoBlue extends LinearOpMode {
     private Servo ClawR;
     private ColorSensor color_sensor;
     private ElapsedTime     runtime = new ElapsedTime();
-
+    private Servo colorservo;
 
     static final double     FORWARD_SPEED = 0.6;
     static final double     TURN_SPEED    = 0.5;
@@ -110,13 +110,6 @@ public class AutoBlue extends LinearOpMode {
         right_back.setPower(SPEED);
     }
 
-    public void resetMotors(){
-        left_front.setPower(0);
-        left_back.setPower(0);
-        right_front.setPower(0);
-        right_back.setPower(0);
-    }
-
     public void right(){
         left_front.setPower(-SPEED);
         left_back.setPower(-SPEED);
@@ -124,49 +117,52 @@ public class AutoBlue extends LinearOpMode {
         right_back.setPower(-SPEED);
     }
 
-    public void moveForward(float time){
-        forward();
+
+    public void wait(float time){
         runtime.reset();
         while(opModeIsActive() && runtime.seconds() < time){
             telemetry.addData("Running", runtime.seconds());
             telemetry.update();
         }
+    }
+
+    public void resetMotors(){
+        left_front.setPower(0);
+        left_back.setPower(0);
+        right_front.setPower(0);
+        right_back.setPower(0);
+    }
+
+    public void pause(float time){
         resetMotors();
+        wait(time);
+    }
+    public void moveForward(float time){
+        forward();
+        wait(time);
+        pause(1/2);
     }
 
     public void moveBackward(float time){
         forward();
-        runtime.reset();
-        while(opModeIsActive() && runtime.seconds() < time){
-            telemetry.addData("Running", runtime.seconds());
-            telemetry.update();
-        }
-        resetMotors();
+        wait(time);
+        pause(1/2);
     }
 
     public void moveLeft(float time){
         left();
-        runtime.reset();
-        while(opModeIsActive() && runtime.seconds() < time){
-            telemetry.addData("Running", runtime.seconds());
-            telemetry.update();
-        }
-        resetMotors();
+        wait(time);
+        pause(1/2);
 
     }
 
 
     public void moveRight(float time){
         right();
-        runtime.reset();
-        while(opModeIsActive() && runtime.seconds() < time){
-            telemetry.addData("Running", runtime.seconds());
-            telemetry.update();
-        }
-        resetMotors();
+        wait(time);
+        pause(1/2);
 
     }
-
 
 
     @Override
@@ -196,47 +192,61 @@ public class AutoBlue extends LinearOpMode {
         color_sensor.enableLed(true);
 
 
+        colorservo = hardwareMap.servo.get("colorservo");
         // Send telemetry message to signify robot waiting;
         telemetry.addData("Status", "Ready to run");    //
         telemetry.update();
 
         // Wait for the game to start (driver presses PLAY)
+
+
+
+
+
         waitForStart();
 
-        // Step through each leg of the path, ensuring that the Auto mode has not been stopped along the way
 
-        // Step 1:  Drive forward for 3 seconds
-//        robot.leftDrive.setPower(FORWARD_SPEED);
-//        robot.rightDrive.setPower(FORWARD_SPEED);
-        runtime.reset();
-        while (opModeIsActive() && (runtime.seconds() < 3.0)) {
-            telemetry.addData("Path", "Leg 1: %2.5f S Elapsed", runtime.seconds());
-            telemetry.update();
-        }
 
-        // Step 2:  Spin right for 1.3 seconds
-//        robot.leftDrive.setPower(TURN_SPEED);
-//        robot.rightDrive.setPower(-TURN_SPEED);
-        runtime.reset();
-        while (opModeIsActive() && (runtime.seconds() < 1.3)) {
-            telemetry.addData("Path", "Leg 2: %2.5f S Elapsed", runtime.seconds());
-            telemetry.update();
-        }
+        moveForward(3);
 
-        // Step 3:  Drive Backwards for 1 Second
-//        robot.leftDrive.setPower(-FORWARD_SPEED);
-//        robot.rightDrive.setPower(-FORWARD_SPEED);
-        runtime.reset();
-        while (opModeIsActive() && (runtime.seconds() < 1.0)) {
-            telemetry.addData("Path", "Leg 3: %2.5f S Elapsed", runtime.seconds());
-            telemetry.update();
-        }
+        moveLeft(2);
 
-        // Step 4:  Stop and close the claw.
-//        robot.leftDrive.setPower(0);
-//        robot.rightDrive.setPower(0);
-//        robot.leftClaw.setPosition(1.0);
-//        robot.rightClaw.setPosition(0.0);
+        moveForward(1);
+
+//        // Step through each leg of the path, ensuring that the Auto mode has not been stopped along the way
+//
+//        // Step 1:  Drive forward for 3 seconds
+////        robot.leftDrive.setPower(FORWARD_SPEED);
+////        robot.rightDrive.setPower(FORWARD_SPEED);
+//        runtime.reset();
+//        while (opModeIsActive() && (runtime.seconds() < 3.0)) {
+//            telemetry.addData("Path", "Leg 1: %2.5f S Elapsed", runtime.seconds());
+//            telemetry.update();
+//        }
+//
+//        // Step 2:  Spin right for 1.3 seconds
+////        robot.leftDrive.setPower(TURN_SPEED);
+////        robot.rightDrive.setPower(-TURN_SPEED);
+//        runtime.reset();
+//        while (opModeIsActive() && (runtime.seconds() < 1.3)) {
+//            telemetry.addData("Path", "Leg 2: %2.5f S Elapsed", runtime.seconds());
+//            telemetry.update();
+//        }
+//
+//        // Step 3:  Drive Backwards for 1 Second
+////        robot.leftDrive.setPower(-FORWARD_SPEED);
+////        robot.rightDrive.setPower(-FORWARD_SPEED);
+//        runtime.reset();
+//        while (opModeIsActive() && (runtime.seconds() < 1.0)) {
+//            telemetry.addData("Path", "Leg 3: %2.5f S Elapsed", runtime.seconds());
+//            telemetry.update();
+//        }
+//
+//        // Step 4:  Stop and close the claw.
+////        robot.leftDrive.setPower(0);
+////        robot.rightDrive.setPower(0);
+////        robot.leftClaw.setPosition(1.0);
+////        robot.rightClaw.setPosition(0.0);
 
         telemetry.addData("Path", "Complete");
         telemetry.update();

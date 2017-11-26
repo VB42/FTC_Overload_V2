@@ -78,6 +78,8 @@ public class AutoRed extends LinearOpMode {
     private Servo ClawL;
     private Servo ClawR;
     private ColorSensor color_sensor;
+    private Servo colorservo;
+
     private ElapsedTime     runtime = new ElapsedTime();
     public static double threshold = 0.2;
     static final double     FORWARD_SPEED = 0.6;
@@ -184,6 +186,8 @@ public class AutoRed extends LinearOpMode {
         //lift=hardwareMap.dcMotor.get("lift");
         color_sensor = hardwareMap.colorSensor.get("color");
         color_sensor.enableLed(true);
+        colorservo = hardwareMap.servo.get("colorservo");
+        
         // Send telemetry message to signify robot waiting;
         telemetry.addData("Status", "Ready to run");    //
         telemetry.update();
@@ -194,6 +198,10 @@ public class AutoRed extends LinearOpMode {
 
 
         moveForward(3);
+
+        moveLeft(2);
+
+        moveForward(1);
 
 
 
