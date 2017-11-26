@@ -76,14 +76,6 @@ public class TankDrive extends OpMode
     public void loop() throws IllegalArgumentException
     {
 
-        int red = color_sensor.red();
-
-        log("SayRed", Integer.toString(red));
-
-
-        int blue = color_sensor.blue();
-
-        log("SayBlue", Integer.toString(blue));
 
 
          /*

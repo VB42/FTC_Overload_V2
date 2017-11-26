@@ -29,6 +29,8 @@
 
 package org.firstinspires.ftc.teamcode;
 
+import android.os.UserManager;
+
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
@@ -187,7 +189,7 @@ public class AutoRed extends LinearOpMode {
         color_sensor = hardwareMap.colorSensor.get("color");
         color_sensor.enableLed(true);
         colorservo = hardwareMap.servo.get("colorservo");
-        
+
         // Send telemetry message to signify robot waiting;
         telemetry.addData("Status", "Ready to run");    //
         telemetry.update();
@@ -195,6 +197,21 @@ public class AutoRed extends LinearOpMode {
         // Wait for the game to start (driver presses PLAY)
         waitForStart();
 
+        // colorservo.setPosition(0.7);
+
+        int red = color_sensor.red();
+
+        int blue = color_sensor.blue();
+
+        int diff = red - blue;
+
+        if(diff > 0){
+            moveForward(1/3);
+        }
+
+        else{
+            moveBackward(1/3);
+        }
 
 
         moveForward(3);

@@ -206,6 +206,23 @@ public class AutoBlue extends LinearOpMode {
         waitForStart();
 
 
+        //colorservo.setPosition(0.7);
+
+        int red = color_sensor.red();
+
+        int blue = color_sensor.blue();
+
+        int diff = red - blue;
+
+
+        if(diff > 0){
+            moveBackward(1/3);
+        }
+
+        else{
+            moveForward(1/3);
+        }
+
 
         moveForward(3);
 
